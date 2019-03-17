@@ -4,6 +4,11 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
+import 'jquery';
+import 'popper.js/dist/popper';
+
+import 'bootstrap';
+
 if (environment.production) {
   enableProdMode();
 }
